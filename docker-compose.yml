@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  spring-app:
+    ports:
+      - 40002:8080
+    image: registry.gitlab.com/r.makara232/spring-app
+    restart: always
